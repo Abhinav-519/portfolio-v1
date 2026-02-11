@@ -1,0 +1,95 @@
+/* Animated gradient accent bar */
+.project-card__accent {
+    height: 4px;
+    background: var(--gradient-rainbow);
+    background-size: 300% 100%;
+    animation: rainbow-shift 4s ease infinite;
+    border-radius: 16px 16px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-card__accent::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+.project-card .glass-card {
+    padding: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.project-card__body {
+    padding: 24px;
+}
+
+.project-card__title {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.project-card__description {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.project-card__highlights {
+    list-style: none;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.project-card__highlights li {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+    padding-left: 16px;
+    position: relative;
+}
+
+.project-card__highlights li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent-1);
+    font-weight: bold;
+}
+
+.project-card__highlights li:nth-child(3n+2)::before {
+    color: #e040fb;
+}
+
+.project-card__highlights li:nth-child(3n)::before {
+    color: #00b4d8;
+}
+
+.project-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.project-card__tags .tag:nth-child(3n+2) {
+    background: rgba(224, 64, 251, 0.06);
+    color: #c030d8;
+    border-color: rgba(224, 64, 251, 0.12);
+}
+
+.project-card__tags .tag:nth-child(3n) {
+    background: rgba(0, 180, 216, 0.06);
+    color: #0090b0;
+    border-color: rgba(0, 180, 216, 0.12);
+}

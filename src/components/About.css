@@ -1,0 +1,60 @@
+/* ========================================
+   ABOUT SECTION (Light Theme)
+   ======================================== */
+
+.about {
+    background: var(--bg-primary);
+}
+
+/* Quote Card */
+.about__quote-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px;
+    text-align: left;
+}
+
+.about__paragraph {
+    font-size: 1.1rem;
+    line-height: 1.85;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.about__paragraph:last-of-type {
+    margin-bottom: 32px;
+}
+
+/* Inspiring Quote */
+.about__inspiring-quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.7;
+    color: var(--text-primary);
+    padding: 28px 32px;
+    border-left: 4px solid;
+    border-image: var(--gradient-primary) 1;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.06) 0%, rgba(118, 75, 162, 0.04) 100%);
+    border-radius: 0 12px 12px 0;
+    margin: 0;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 768px) {
+    .about__quote-card {
+        padding: 28px 24px;
+    }
+
+    .about__paragraph {
+        font-size: 1rem;
+    }
+
+    .about__inspiring-quote {
+        font-size: 1.1rem;
+        padding: 20px 24px;
+    }
+}

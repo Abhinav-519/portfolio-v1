@@ -1,0 +1,66 @@
+.tech-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.tech-bg__icon {
+    position: absolute;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-weight: 600;
+    color: var(--accent-1);
+    opacity: 0.06;
+    animation: float-tech 8s ease-in-out infinite;
+    user-select: none;
+}
+
+/* Alternate colors */
+.tech-bg__icon:nth-child(3n+1) {
+    color: #667eea;
+}
+
+.tech-bg__icon:nth-child(3n+2) {
+    color: #e040fb;
+}
+
+.tech-bg__icon:nth-child(3n) {
+    color: #00b4d8;
+}
+
+/* Alternate float animations */
+.tech-bg__icon:nth-child(even) {
+    animation-name: float-tech-2;
+}
+
+/* Circuit SVG */
+.tech-bg__circuits {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.04;
+}
+
+.circuit-line {
+    stroke: var(--accent-1);
+    stroke-width: 1.5;
+    fill: none;
+    stroke-dasharray: 8 4;
+}
+
+.circuit-node {
+    fill: var(--accent-3);
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .tech-bg__icon {
+        opacity: 0.04;
+    }
+
+    .tech-bg__circuits {
+        opacity: 0.02;
+    }
+}
