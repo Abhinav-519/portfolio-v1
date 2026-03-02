@@ -46,7 +46,7 @@ export default function About() {
                     custom={2}
                 >
                     <p className="about__paragraph">
-                        With over four years of experience spanning enterprise platforms, cloud-native architectures, and AI-driven systems, I've had the privilege of building technology that truly makes a difference - from powering millions of daily transactions at DBS Bank in Asia, to crafting GenAI platforms at Wayfair that redefine how people discover products.
+                        With over five years of experience spanning enterprise platforms, cloud-native architectures, and AI-driven systems, I've had the privilege of building technology that truly makes a difference - from powering millions of daily transactions at DBS Bank in Asia, to crafting GenAI platforms at Wayfair that redefine how people discover products.
                     </p>
                     <p className="about__paragraph">
                         I believe the best engineering happens at the intersection of curiosity and craftsmanship. Every line of code is an opportunity to solve a real problem, and every system I build is designed not just to work, but to inspire confidence and delight in the people who use it.
