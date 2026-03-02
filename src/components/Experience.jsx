@@ -116,7 +116,7 @@ export default function Experience() {
                     variants={fadeUp}
                     custom={2}
                 >
-                    4+ years of building production systems across finance, healthcare, and e-commerce.
+                    5+ years of building production systems across finance, healthcare, and e-commerce.
                 </motion.p>
 
                 <div className="exp-timeline">
