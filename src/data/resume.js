@@ -38,7 +38,7 @@ export const experience = [
         company: "Dean Health Plan",
         role: "Software Engineer – AI & Full Stack",
         location: "Madison, WI",
-        period: "Aug 2024 - May 2025",
+        period: "Oct 2023 - May 2025",
         highlights: [
             "Developed AI-powered analytics dashboards for claim trends and fraud detection with grounding validation.",
             "Created an intelligent document-processing engine using Python and OpenAI APIs, reducing manual data entry by 60%.",
@@ -49,21 +49,7 @@ export const experience = [
             "Delivered validated, compliant AI systems that enhanced operational efficiency and reduced manual processing effort.",
         tags: ["FastAPI", "React", "OpenAI", "AWS", "PostgreSQL", "HIPAA"],
     },
-    {
-        company: "Comcast Communications",
-        role: "Full Stack Developer",
-        location: "Chicago, IL",
-        period: "Oct 2023 - Aug 2024",
-        highlights: [
-            "Built interactive dashboards using React.js and TailwindCSS for real-time monitoring and operational visibility.",
-            "Designed scalable backend services using Python (FastAPI) for service provisioning and customer management.",
-            "Implemented CI/CD pipelines using Jenkins and Docker, reducing deployment time by 70%.",
-            "Deployed containerized services on AWS ECS and Cloudflare achieving 99.9% uptime.",
-        ],
-        impact:
-            "Delivered Python-driven full-stack platforms and data pipelines improving internal visibility and system reliability.",
-        tags: ["React", "FastAPI", "Docker", "Jenkins", "AWS", "Redis"],
-    },
+ 
     {
         company: "DBS Tech",
         role: "Application Developer",
