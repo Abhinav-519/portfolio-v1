@@ -8,9 +8,9 @@ export const personalInfo = {
     linkedin: "https://www.linkedin.com/in/kedareswaraabhinav-batchu/",
     github: "https://github.com/Abhinav-519",
     summary:
-        "GenAI & Full Stack Engineer with 4+ years of experience building enterprise-grade, cloud-native, and AI-driven systems. Passionate about crafting intelligent solutions that bridge cutting-edge AI with beautiful, performant user experiences.",
+        "GenAI & Full Stack Engineer with 5+ years of experience building enterprise-grade, cloud-native, and AI-driven systems. Passionate about crafting intelligent solutions that bridge cutting-edge AI with beautiful, performant user experiences.",
     stats: [
-        { label: "Years Experience", value: "4+" },
+        { label: "Years Experience", value: "5+" },
         { label: "Companies", value: "5" },
         { label: "AI Projects", value: "10+" },
         { label: "Uptime Delivered", value: "99.9%" },
